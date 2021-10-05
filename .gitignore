@@ -1,1 +1,6 @@
 lf/
+*.glob
+*.vo*
+Makefile.conf
+*.aux
+.Makefile.d

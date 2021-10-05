@@ -1,5 +1,5 @@
-Coq is very cool. Most of this will be solutions to Software Foundations
-exercises. Some of it will be stuff I implement for practice.
+coq is very cool. most of this will be solutions to software foundations
+exercises. some of it will be stuff i implement for practice.
 
 resources
 - [Software Foundations series by Pierce et
