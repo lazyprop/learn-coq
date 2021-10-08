@@ -138,16 +138,17 @@ Module NatPlayground.
   | O
   | S (n : nat).
 
-  Fixpoint even (n : nat) : bool :=
-    match n with
-    | O => true
-    | S O => false
-    | S (S n') => even n'
-    end.
-
-  Definition odd (n : nat) : bool :=
-    negb (even n).
 End NatPlayground.
+
+Fixpoint even (n : nat) : bool :=
+match n with
+| O => true
+| S O => false
+| S (S n') => even n'
+end.
+
+Definition odd (n : nat) : bool :=
+negb (even n).
 
 Module NatPlayground2.
   Fixpoint plus (n m : nat) : nat :=
