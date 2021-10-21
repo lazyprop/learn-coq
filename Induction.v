@@ -225,3 +225,14 @@ Proof.
       rewrite <- plus_n_O.
       rewrite mul_comm.
 Admitted.
+
+Theorem eqb_refl : forall n : nat,
+  (n =? n) = true.
+Proof. Admitted.
+
+ Fixpoint nat_to_bin (n:nat) : bin
+  (* REPLACE THIS LINE WITH ":= _your_definition_ ." *). Admitted.
+
+Theorem nat_bin_nat : forall n, bin_to_nat (nat_to_bin n) = n.
+Proof.
+  (* FILL IN HERE *) Admitted.
